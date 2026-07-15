@@ -1,0 +1,9 @@
+[[rules]]
+
+id="generic-password"
+
+description="Password Detection"
+
+regex='''(?i)password\s*=\s*["'\''][^"'\'']+["'\'']'''
+
+tags=["password"]
